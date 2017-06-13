@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     announce: function (event) {
-      this.announcement = 'Here\'s a new annoucement!'
+      this.announcement = 'Here\'s a new announcement!'
       setTimeout(() => {
         this.announcement = ''
       }, 2000)
